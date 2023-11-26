@@ -29,8 +29,7 @@ namespace PracticaGit
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
-
-            if (cbUrgente.Checked)
+            if (radioButton1.Checked)
                 tipoTelegrama = 'u';
 
             // telegrama ordinario?
